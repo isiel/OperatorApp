@@ -14,4 +14,7 @@ interface ApiInterface {
     @GET("fbm/inventories/{inventory_id}/items")
     fun getItemDetails(@Path("inventory_id") inventoryId: String): Call<ItemDetails>
 
+    @GET("wms/warehouses/BRTW01/inventories/{inventory_id}")
+    fun getAddressesOfInventoryId(@Path("inventory_id") inventoryId: String): Call<Array<StockItem>>
+
 }

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".main.MainActivity">
+    android:padding="16dp">
 
-    <EditText
-        android:id="@+id/items_input"
+    <TextView
+        android:id="@+id/address_list_row_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insert address"/>
+        android:text="Address"/>
 
-    <Button
-        android:id="@+id/items_search_action_button"
+    <TextView
+        android:id="@+id/address_list_row_quantity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buscar"/>
+        android:text="Quantity"/>
 
 </LinearLayout>

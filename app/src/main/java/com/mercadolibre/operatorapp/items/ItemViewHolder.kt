@@ -5,7 +5,6 @@ import android.view.View
 import com.mercadolibre.operatorapp.model.StockItem
 import kotlinx.android.synthetic.main.stock_item_row.view.*
 
-
 class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun bind(item: StockItem, listener: () -> Unit) {
